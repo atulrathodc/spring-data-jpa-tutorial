@@ -1,2 +1,2 @@
-# spring-data-jpa-tutorial
-spring-data-jpa-tutorial
+# Spring-Data-JPA-Tutorial
+Spring-Data-JPA-Tutorial

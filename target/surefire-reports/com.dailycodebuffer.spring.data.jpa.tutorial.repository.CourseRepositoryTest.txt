@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.dailycodebuffer.spring.data.jpa.tutorial.repository.CourseRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.806 s <<< FAILURE! - in com.dailycodebuffer.spring.data.jpa.tutorial.repository.CourseRepositoryTest
+printCourses  Time elapsed: 0.528 s  <<< ERROR!
+org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.dailycodebuffer.spring.data.jpa.tutorial.entity.Course.students, could not initialize proxy - no Session
+	at com.dailycodebuffer.spring.data.jpa.tutorial.repository.CourseRepositoryTest.printCourses(CourseRepositoryTest.java:26)
+
