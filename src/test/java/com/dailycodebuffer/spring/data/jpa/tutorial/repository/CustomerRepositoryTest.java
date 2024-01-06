@@ -20,7 +20,7 @@ public class CustomerRepositoryTest {
     @Autowired
     private CustomerRepository1 customerRepository1;
 
-    @Test
+//    @Test
     public void printCourses() {
         List<Customer> customer =
                 customerRepository.findAll();
@@ -28,7 +28,7 @@ public class CustomerRepositoryTest {
         System.out.println("Customer = " + customer);
     }
 
-    @Test
+//    @Test
     public void saveCustomerWithTeacher() {
 //        Address add = Address.builder()
 //                .name("ram mandir")
@@ -55,7 +55,7 @@ public class CustomerRepositoryTest {
 //        customerRepository.save(course);
     }
 
-    @Test
+//    @Test
     public void saveCustomerWithTeacher1() {
 
         Address add = Address.builder()

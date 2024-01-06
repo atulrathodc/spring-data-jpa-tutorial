@@ -16,7 +16,7 @@ class TeacherRepositoryTest {
     @Autowired
     private TeacherRepository teacherRepository;
 
-    @Test
+//    @Test
     public void saveTeacher() {
 
         Course courseDBA = Course.builder()

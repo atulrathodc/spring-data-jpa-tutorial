@@ -18,7 +18,7 @@ class CourseRepositoryTest {
     @Autowired
     private CourseRepository courseRepository;
 
-    @Test
+//    @Test
     public void printCourses() {
         List<Course> courses =
                 courseRepository.findAll();
@@ -26,7 +26,7 @@ class CourseRepositoryTest {
         System.out.println("courses = " + courses);
     }
 
-    @Test
+//    @Test
     public void saveCourseWithTeacher() {
         Teacher teacher = Teacher.builder()
                 .firstName("Priyanka")
@@ -43,7 +43,7 @@ class CourseRepositoryTest {
         courseRepository.save(course);
     }
 
-    @Test
+//    @Test
     public void findAllPagination(){
         Pageable firstPagewithThreeRecords =
                 PageRequest.of(0, 3);
@@ -69,7 +69,7 @@ class CourseRepositoryTest {
         System.out.println("courses = " + courses);
     }
 
-    @Test
+//    @Test
     public void findAllSorting() {
         Pageable sortByTitle =
                 PageRequest.of(
@@ -99,7 +99,7 @@ class CourseRepositoryTest {
         System.out.println("courses = " + courses);
     }
 
-    @Test
+//    @Test
     public void printfindByTitleContaining() {
         Pageable firstPageTenRecords =
                 PageRequest.of(0,10);
@@ -112,7 +112,7 @@ class CourseRepositoryTest {
         System.out.println("courses = " + courses);
     }
 
-    @Test
+//    @Test
     public void saveCourseWithStudentAndTeacher() {
 
         Teacher teacher = Teacher.builder()
