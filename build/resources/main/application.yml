@@ -1,0 +1,19 @@
+#spring:
+#  kafka:
+#    bootstrap-servers: localhost:9092
+#    streams:
+#      application-id: kafka-streams-app-43343
+#      bootstrap-servers: localhost:9092
+#      properties:
+#        commit.interval.ms: 10
+#        state.dir: /tmp/kafka-streams
+#        default.key.serde: org.apache.kafka.common.serialization.Serdes$StringSerde
+#        default.value.serde: org.apache.kafka.common.serialization.Serdes$StringSerde
+
+
+#logging:
+#  level:
+#    org.apache.kafka: DEBUG
+#    org.apache.kafka.streams: DEBUG
+
+
